@@ -23,15 +23,15 @@ body {
 }
 
 p{
-color: #E6CCB2;
-font-style: italic;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E6CCB2;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
-background-color: #B08968;
-text-align: center;
-padding: 50px;
+    background-color: #B08968;
+    text-align: center;
+    padding: 50px;
 }
 
 img {
