@@ -14,6 +14,7 @@ h1 {
     background-color: #B08968;
     color: #E6CCB2;
     padding: 50px;
+    font-size: 80px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     color: #B08968;
 }
 
-p{
+p {
     color: #E6CCB2;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,8 +35,26 @@ footer {
     padding: 50px;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+    margin-right: -35px;
+
+}
+
+.hover11 figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3 ease-in-out;
+}
+
+.hover11 figure:hover img {
+    opacity: .5;
+}
+
 img {
     border: 5px solid #B08968;
     width: 400px;
     height: 500px;
-  }
+}
